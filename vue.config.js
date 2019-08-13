@@ -8,8 +8,8 @@ const IS_PROD = ["production"].includes(process.env.NODE_ENV);
 const productionGzipExtensions = /\.(js|css|json|txt|html|ico|svg)(\?.*)?$/i;
 
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production' ? '/dist' : '/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/dist' : '/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/vue3-admin/dist' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue3-admin/dist' : '/',
   productionSourceMap: false,
   configureWebpack: config => {
     config.performance = {
