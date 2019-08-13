@@ -1,0 +1,25 @@
+.el-scrollbar, .el-scrollbar__view, .el-aside .el-menu {
+  height: 100%;
+  &.el-menu--collapse {
+    .el-icon-arrow-right {
+      visibility: hidden;
+    }
+  }
+}
+.el-header {
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+  .v-header-collapse-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+.el-main {
+  padding: 8px 16px;
+  height: 100%;
+}
+.el-submenu .el-menu-item {
+  min-width: 100%;
+}

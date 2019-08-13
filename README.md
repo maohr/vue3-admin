@@ -1,2 +1,20 @@
-# vue3-admin
-基于 vue-function-api 以及 typescript 的后台管理模板
+# vue-admin-template for vue-function-api typescript
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+### vue-function-api
+[vue-function-api] (https://github.com/maohr/vue-function-api/blob/master/README.zh-CN.md)
+
+[demo演示]

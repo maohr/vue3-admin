@@ -1,0 +1,52 @@
+@import "./element-ui.scss";
+@import "./transition.scss";
+html, body, #app {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+a[rel=noopener] {
+  text-decoration: none;
+}
+.v-spacer {
+  flex-grow: 1;
+}
+.app-main {
+  height: calc(100% - 96px);
+}
+.v-tags-view-wrapper {
+  height: 36px;
+  box-shadow: 0 0 4px inset rgba(0, 0, 0, 0.12);
+  .el-scrollbar__view {
+    display: flex;
+    align-items: center;
+    a {
+      padding-left: 8px;
+    }
+  }
+  .el-tag {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+  }
+}
+.contextmenu {
+  margin: 0;
+  background: #fff;
+  z-index: 100;
+  position: absolute;
+  list-style-type: none;
+  padding: 5px 0;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3);
+  li {
+    margin: 0;
+    padding: 7px 16px;
+    cursor: pointer;
+    &:hover {
+      background: #eee;
+    }
+  }
+}
