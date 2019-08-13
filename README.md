@@ -17,4 +17,4 @@ yarn run build
 ### vue-function-api
 [vue-function-api] (https://github.com/maohr/vue-function-api/blob/master/README.zh-CN.md)
 
-[demo演示]
+[demo演示] (https://maohr.github.io/vue3-admin/dist/)
