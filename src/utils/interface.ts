@@ -1,4 +1,4 @@
-import Vue, {Component, VNode} from "vue";
+import Vue, {VNode} from "vue";
 
 export interface Context {
   readonly parent: Vue;

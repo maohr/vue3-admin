@@ -7,6 +7,7 @@
 <script lang="ts">
   import {value, onCreated} from "vue-function-api";
   import {Context} from "@/utils/interface";
+  import {Item} from "@/api/Item";
 
   export default {
     name: "home",
